@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int main()
+
+{
+int m,i;
+double y=1;//高精度，不能用float
+
+scanf("%d",&m);
+
+for(i=1;i<=m;i++)
+
+{
+
+y+=1.0/(2*i);
+
+}
+
+printf("%.2lf",y);
+
+return 0;
+
+}
